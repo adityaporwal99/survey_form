@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(244, 100, 100);
+    text-align: center;
+    font-family: Verdana;    
+}
+
+form{
+    background-color: white;
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 30px 20px;
+}
+
+.form_set{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.form_set label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, select{
+    width: 95%;
+    padding: 10px;
+    font-family: inherit;
+}
+
+input[type ="checkbox"]{
+    width:auto;
+}
+
+button{
+    width: 40%;
+    padding: 10px;
+    background-color:  rgb(244, 100, 100);
+    font-family: inherit;
+    font-size: 15px;
+    margin-left: 30%;
+}

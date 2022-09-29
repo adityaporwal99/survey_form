@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form using HTML and CSS</title>
+
+    <link rel="stylesheet" href="format.css">
+</head>
+<body>
+
+    <h1 id="survey">Survey Form </h1>
+
+    <form>
+    <div class="form_set">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+    </div>
+
+    <div class="form_set">
+        <label for="mail">Email</label>
+        <input type="email" id="mail" placeholder="Enter your email">
+    </div>
+    
+    <div class="form_set">
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="Enter your age">
+    </div>
+    
+    <div class="form_set">
+        <label for="current">Which option best describes you?</label>
+        <select id="current">
+            <option>Student</option>
+            <option>Intern</option>
+            <option>Professional</option>
+        </select>
+    </div>
+    
+    <div class="form_set">
+        <label for="known">Languages known</label>
+                
+        <label><input type="checkbox">C</label>
+        <label><input type="checkbox">C++</label>
+        <label><input type="checkbox">Java</label>
+        <label><input type="checkbox">Python</label>
+        <label><input type="checkbox">C#</label>
+        <label><input type="checkbox">Kotlin</label>
+        <label><input type="checkbox">Javascript</label>
+    </div>
+
+    <div class="form_set">
+        <button type="submit">Submit</button>
+    </div>
+
+</form>
+
+</body>
+</html>
